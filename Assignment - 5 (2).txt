@@ -1,0 +1,136 @@
+				Assignment - 5 
+	C, C++ and DSA in Depth with Job Assistance in Hindi
+		More on Iterative Control Statements
+1. Write a program to print MySirG N times on the screen
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter a number");
+    scanf("%d",&a);
+    for(int i=1;i<=a;i++)
+        printf("MySirG \n");
+}
+
+2. Write a program to print the first N natural numbers.
+
+#include<stdio.h>
+int main()
+{
+    int a,i;
+    printf("Enter a number");
+    scanf("%d",&a);
+    for(i=1;i<=a;i++)
+        printf("\n %d",i);
+
+}
+
+3. Write a program to print the first N natural numbers in reverse order
+
+#include<stdio.h>
+int main()
+{
+    int a,i;
+    printf("Enter a number");
+    scanf("%d",&a);
+    for(i=a;i>=1;i--)
+        printf("\n %d",i);
+
+}
+
+4. Write a program to print the first N odd natural numbers
+
+#include<stdio.h>
+int main()
+{
+    int a,i;
+    printf("Enter a number");
+    scanf("%d",&a);
+    for(i=1;i<=a;i++)
+    if(i%2==!0)
+        printf("\n %d",i);
+
+}
+
+5. Write a program to print the first N odd natural numbers in reverse order.
+#include<stdio.h>
+int main()
+{
+    int a,i;
+    printf("Enter a number");
+    scanf("%d",&a);
+    for(i=a;i>=1;i--)
+    if(i%2==!0)
+        printf("\n %d",i);
+
+}
+
+
+6. Write a program to print the first N even natural numbers.
+
+#include<stdio.h>
+int main()
+{
+    int a,i;
+    printf("Enter a number");
+    scanf("%d",&a);
+    for(i=1;i<=a;i++)
+    if(i%2==0)
+        printf("\n %d",i);
+
+}
+
+7. Write a program to print the first N even natural numbers in reverse order
+
+#include<stdio.h>
+int main()
+{
+    int a,i;
+    printf("Enter a number");
+    scanf("%d",&a);
+    for(i=a;i>=1;i--)
+    if(i%2==0)
+        printf("\n %d",i);
+
+}
+
+8. Write a program to print squares of the first N natural numbers.
+#include<stdio.h>
+int main()
+{
+    int a,i;
+    printf("Enter a number");
+    scanf("%d",&a);
+    for(i=1;i<=a;i++)
+
+        printf("\n %d %d",i,i*i);
+
+}
+
+
+9. Write a program to print cubes of the first N natural numbers.
+#include<stdio.h>
+int main()
+{
+    int a,i;
+    printf("Enter a number");
+    scanf("%d",&a);
+    for(i=1;i<=a;i++)
+
+        printf("\n %d %d",i,i*i*i);
+
+}
+
+10. Write a program to print a table of N.
+#include<stdio.h>
+int main()
+{
+    int a,i;
+    printf("Enter a number");
+    scanf("%d",&a);
+    for(i=1;i<=10;i++)
+
+        printf("\n %d %d",i,a*i);
+
+}
